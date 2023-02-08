@@ -24,7 +24,7 @@ export default function App() {
   return (
     // <Provider>
       <View style={styles.container}>
-        <AuthScreen/>
+        <AuthScreen />
       </View>
     // </Provider>
   );

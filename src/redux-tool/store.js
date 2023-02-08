@@ -1,4 +1,4 @@
-import { configureStore } from '';
+import { configureStore } from '@reduxjs/toolkit';
 // import { authReducer } from '../reducers/auth'; '@reduxjs/toolkit';
 // import { chatReducer } from '../reducers/chat';
 // import { modalReducer } from '../reducers/modal';
@@ -7,7 +7,7 @@ import { configureStore } from '';
 
 export const store = configureStore({
     reducer: {
-        // auth: authReducer,
+        auth: authReducer,
         // posts: postsReducer,
         // modal: modalReducer,
         // chat: chatReducer,
