@@ -3,9 +3,10 @@ import { configureStore } from '@reduxjs/toolkit';
 // import { chatReducer } from '../reducers/chat';
 // import { modalReducer } from '../reducers/modal';
 // import { postsReducer } from '../reducers/posts';
+import authReducer from './commonFile'
 
 
-export const store = configureStore({
+export default configureStore({
     reducer: {
         auth: authReducer,
         // posts: postsReducer,
@@ -14,4 +15,4 @@ export const store = configureStore({
     },
 })
 
-export default store
+//export default store
